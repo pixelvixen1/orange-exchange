@@ -1,0 +1,155 @@
+.phonesTextMain
+{
+	font-family:"55roman";
+	font-size: 24px;
+	color:#ffffff;
+	text-align:left;
+}
+
+.phonesLink
+{
+	font-family:"75bold";
+	font-size: 16px;
+	color:#FF6600;
+	text-align:left;
+}
+
+.titleText {
+	font-family:"75bold";
+	font-size: 15px;
+	color:#ff6600;
+	text-align:left;
+}
+
+.bodyText
+{
+	font-family:"55roman";
+	font-size: 14px;
+	color:#ffffff;
+	text-align:left;
+}
+
+
+.devicesPageHeader
+{
+	font-family:"EENobReg";
+	font-size: 47px;
+	color:#ffffff;
+	text-align:left;
+}
+
+.devicesPageSubHeader
+{
+	font-family:"Rubrik_SemiBold";
+	font-size: 14px;
+	color:#ffffff;
+	text-align:left;
+	font-weight: bold;
+}
+
+.devicesMainContentHeader
+{
+	font-family:"EENobReg";
+	font-size: 20px;
+	color:#ffffff;
+	text-align:left;
+}
+.devicesMainContentSubHeader
+{
+	font-family:"Rubrik_SemiBold";
+	font-size: 14px;
+	color:#ffffff;
+	text-align:left;
+	font-weight: bold;
+}
+.devicesMainContentBody
+{
+	font-family:"Rubrik_regular";
+	font-size: 14px;
+	color:#ffffff;
+	text-align:left;
+}
+
+.yellowButtonLabel
+{
+	font-family:"Rubrik_SemiBold";
+	font-size: 13px;
+	color:#6D6E71;
+	text-align:left;
+	font-weight:bold;
+}
+
+.blueButtonLabel
+{
+	font-family:"Rubrik_SemiBold";
+	font-size: 14px;
+	color:#ffffff;
+	text-align:left;
+	font-weight: bold;
+}
+
+.specsLabel
+{
+	font-family:"Rubrik_SemiBold";
+	font-size: 14px;
+	color:#009C9C;
+	text-align:left;
+	font-weight: bold;
+}
+
+.specsValue
+{
+	font-family:"Rubrik_light";
+	font-size: 14px;
+	color:#6D6E71;
+	text-align:left;
+}
+
+.specialOfferTitle
+{
+	font-family:"EENobReg";
+	font-size: 20px;
+	color:#009D96;
+	text-align:left;
+}
+.specialOfferBody
+{
+	font-family:"Rubrik_regular";
+	font-size: 15px;
+	color:#6D6E71;
+	text-align:left;
+}
+
+.highlightsText
+{
+	font-family:"Rubrik_light";
+	font-size: 13px;
+	color:#ffffff;
+	text-align:left;
+}
+
+.highlightsTextBold
+{
+	font-family:"Rubrik_SemiBold";
+	font-size: 13px;
+	color:#FFE600;
+	text-align:left;
+	font-weight: bold;
+}
+
+.hts
+{
+	font-family:"Rubrik_light";
+	font-size: 12px;
+	color:#ffffff;
+	text-align:left;
+}
+
+.htbs
+{
+	font-family:"Rubrik_SemiBold";
+	font-size: 12px;
+	color:#FFE600;
+	text-align:left;
+	font-weight: bold;
+}
