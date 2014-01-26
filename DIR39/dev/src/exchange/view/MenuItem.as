@@ -1,0 +1,194 @@
+﻿////////////////////////////////////////////////////////////////////////////////
+// FileName: MenuItem.as
+// Created by: Angel
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// IMPORTS
+////////////////////////////////////////////////////////////////////////////////
+import mx.events.EventDispatcher;
+import mx.utils.Delegate;
+
+import exchange.Application;
+import exchange.data.EventsCSS;
+import exchange.model.Model;
+
+import com.greensock.TweenMax;
+//import com.greensock.easing.*;
+
+////////////////////////////////////////////////////////////////////////////////
+// CLASS: MenuItem
+////////////////////////////////////////////////////////////////////////////////
+class exchange.view.MenuItem extends MovieClip
+{
+	////////////////////////////////////////////////////////////////////////////
+	// Properties
+	////////////////////////////////////////////////////////////////////////////
+	public var ID					: Number;
+	public var selected				: Boolean = false;
+	
+	private var num_txt_mc			: MovieClip;
+	private var num_txt				: TextField;
+	private var num_str 			: String;
+	private var bg_mc				: MovieClip;
+	private var line_mc				: MovieClip;
+	
+	private var thumb_mc			: MovieClip;
+	
+	private static var TX			: Number = 12;
+	private static var TY			: Number = -134;
+	private static var YOFF			: Number = 800;
+	
+	// Dispatch
+	public var addEventListener		: Function; 
+	public var removeEventListener	: Function; 
+	public var dispatchEvent		: Function;
+
+	////////////////////////////////////////////////////////////////////////////
+	// Constructor
+	////////////////////////////////////////////////////////////////////////////
+	public function MenuItem()
+	{		
+		EventDispatcher.initialize(this);
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	// Initialise and Set item ID
+	////////////////////////////////////////////////////////////////////////////
+	public function init( item_id : Number ) : Void
+	{		
+		this.ID = item_id;
+		setText();
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	// Create Thumbnail
+	////////////////////////////////////////////////////////////////////////////
+	public function createThumbnail() : Void
+	{		
+		thumb_mc = attachMovie('thumb_holder_mc', 'thumb_mc_'+ID, this.getNextHighestDepth() );
+		thumb_mc._x = TX;
+		thumb_mc._y = TY;
+		thumb_mc.init(Model.getInstance().pages[ID]);
+		hideThumb();
+	}
+	
+	
+	////////////////////////////////////////////////////////////////////////////
+	// Set Text
+	////////////////////////////////////////////////////////////////////////////
+	public function setText() : Void
+	{		
+		num_str = Model.getInstance().pages[ID].button_number;
+		setTextProperties(num_txt_mc.num_txt, num_str, false, false);
+		setupUI();
+	}
+	
+	
+	////////////////////////////////////////////////////////////////////////////
+	// SET UP UI
+	////////////////////////////////////////////////////////////////////////////
+	private function setupUI() : Void
+	{
+		bg_mc.onRollOver = Delegate.create(this, buttonRollOver);
+		bg_mc.onRollOut = Delegate.create(this, buttonRollOut);
+		bg_mc.onRelease = Delegate.create(this, buttonReleased);
+	}
+
+	////////////////////////////////////////////////////////////////////////////
+	// BUTTON ROLLOVER
+	////////////////////////////////////////////////////////////////////////////
+	public function buttonRollOver( ) : Void
+	{
+		if(!selected)
+		{
+			TweenMax.to(bg_mc, 0, { colorTransform: { tint:0xff6600, tintAmount:1 }} );
+			TweenMax.to(num_txt_mc, 0, { colorTransform: { tint:0xffffff, tintAmount:1 }} );
+			thumb_mc._visible = true;
+			thumb_mc._y = TY;
+		}
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	// BUTTON ROLLOUT
+	////////////////////////////////////////////////////////////////////////////
+	public function buttonRollOut( ) : Void
+	{
+		if(!selected)
+		{
+			TweenMax.to(bg_mc, 0, { colorTransform: { tint:0xffffff, tintAmount:1 }} );
+			TweenMax.to(num_txt_mc, 0, {colorTransform:{tint:0x000000, tintAmount:1}});
+		}
+		hideThumb();
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	// BUTTON RELEASED
+	////////////////////////////////////////////////////////////////////////////
+	public function buttonReleased( ) : Void
+	{
+		if(!selected)
+		{
+			this.dispatchEvent({type:"onMenuItemClicked", _id:ID});
+			selectButton( );
+		}
+		hideThumb();
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	// Selected button
+	////////////////////////////////////////////////////////////////////////////
+	public function selectButton( ) : Void
+	{
+		selected = true;
+		TweenMax.to(bg_mc, 0, { colorTransform: { tint:0xffffff, tintAmount:1 }} );
+		TweenMax.to(num_txt_mc, 0, { colorTransform: { tint:0xff6600, tintAmount:1 }} );
+		hideThumb();
+	}
+	///////////////////////////////////////////////////////////////////////////
+	// Un select button
+	////////////////////////////////////////////////////////////////////////////
+	public function unSelectButton( ) : Void
+	{
+		selected = false;
+		TweenMax.to(bg_mc, 0, { colorTransform: { tint:0xffffff, tintAmount:1 }} );
+		TweenMax.to(num_txt_mc, 0, { colorTransform: { tint:0x000000, tintAmount:1 }} );
+		hideThumb();
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	//FORMAT TEXT FIELD PROPERTIES
+	////////////////////////////////////////////////////////////////////////////
+	public function setTextProperties( tf : TextField, txtStr : String, _multiline : Boolean, _html : Boolean ) : Void
+	{
+		tf.border = false;
+		tf.background = false;
+		tf.autoSize = false;
+		tf.wordWrap = _multiline;
+		tf.multiline = _multiline;
+		tf.selectable = false;
+		tf.embedFonts = true;
+		tf.html = _html;
+		tf.styleSheet = EventsCSS.getInstance().cssFile;
+		tf.condenseWhite = true;
+		tf.htmlText = txtStr;
+	}
+
+	////////////////////////////////////////////////////////////////////////////
+	// Hide line
+	////////////////////////////////////////////////////////////////////////////
+	public function hideLine() : Void
+	{
+		line_mc._visible = false;
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	// Hide thumb_mc
+	////////////////////////////////////////////////////////////////////////////
+	public function hideThumb() : Void
+	{		
+		thumb_mc._y = YOFF;
+		thumb_mc._visible = false;
+	}
+
+}
