@@ -8,7 +8,7 @@
 class Tracker
 {
 	public static var ISSUE_NAME : String = "DIR39";
-	public static var trackingON : Boolean = false;
+	public static var trackingON : Boolean = true;
 	public static var traceON : Boolean = false;
 	
 	
