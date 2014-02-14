@@ -6,7 +6,7 @@
 			<swf_location>contents.swf</swf_location>
 			<menu_image>thumb_bar/t1.jpg</menu_image>
 			<menu_title>in this issue</menu_title>
-			<menu_info> The detailed guide to what's in your latest edition</menu_info>
+			<menu_info> the detailed guide to what's in your latest edition</menu_info>
 			<contents_image>thumb_bar/m1.jpg</contents_image>
 			<contents_title>THIS NODE IS OPTIONAL</contents_title>
 			<contents_info>THIS NODE IS OPTIONAL</contents_info>
@@ -120,7 +120,7 @@
 			<swf_location>advert.swf</swf_location>
 			<menu_image>thumb_bar/t17.jpg</menu_image>
 			<menu_title>Samsung Galaxy Note 3</menu_title>
-			<menu_info>See the bigger picture</menu_info>
+			<menu_info>see the bigger picture</menu_info>
 			<contents_image>thumb_bar/m17.jpg</contents_image>
 		</page>	
 		
@@ -142,7 +142,7 @@
 			<menu_title>unnovation</menu_title>
 			<menu_info>EE's CEO, Olaf Swantee, on why businesses must evolve</menu_info>
 			<contents_image>thumb_bar/m15.jpg</contents_image>
-			<contents_info> EE's CEO, Olaf Swantee, on why businesses must evolve</contents_info>
+			<contents_info>EE's CEO, Olaf Swantee, on why businesses must evolve</contents_info>
 		</page>	
 	
 		<page name="competition">

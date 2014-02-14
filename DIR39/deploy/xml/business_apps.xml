@@ -7,7 +7,7 @@
 			<app_icon>images/business_apps/120x120/anydo.png</app_icon>
 			
 			<app_name><![CDATA[<span class="appTitle">AnyDo <font size="12">(Free)</font></span>]]></app_name>
-			<app_info><![CDATA[<font size="14">Managing your working life couldn’t be easier. With input options including speech recognition (in a wide range of languages), Any.do lets you simply dictate your schedule. And once a task is complete, simply swipe it off your touchscreen. With a simple, clutter-free interface, timey reminders and the ability to sync with other users and via the web, you can use the app to organise your personal schedule or share task lists and appointments to help manage more complex tasks.</font>]]></app_info>
+			<app_info><![CDATA[<font size="14">Managing your working life couldn’t be easier. With input options including speech recognition (in a range of languages), Any.do lets you dictate your schedule. And once a task is complete, simply swipe it off your touchscreen. With a clutter-free interface, timely reminders and the ability to sync with other users and via the web, you can use the app to organise your schedule or share task lists and appointments to help manage complex tasks.</font>]]></app_info>
 			
 			<app_availability>
 				<android><![CDATA[https://play.google.com/store/apps/details?id=com.anydo]]></android>
@@ -24,7 +24,7 @@
 			<app_icon>images/business_apps/120x120/Pocket_Informant_Go.png</app_icon>
 			
 			<app_name><![CDATA[<span class="appTitle">Pocket Informant Pro 3<br/><font size="12">£4.99 (iOS), £4.28 (Android)</font></span>]]></app_name>
-			<app_info><![CDATA[<font size="14">We’re heard claims about apps that will make you a “productivity ninja” before – but the intriguingly named Pocket Informant may well deliver the goods. Its pinch-to-zoom interface lets you focus on specific months, days or even hours. Events can be grouped into categories, shown or hidden using customizable filters, and you can add notes with supplementary info or contact details. Alongside calendars are to-do lists, with reminders for upcoming and overdue tasks. All data can be synced online with other devices.</font>]]></app_info>
+			<app_info><![CDATA[<font size="14">We’ve seen apps that claim to make you a “productivity ninja” before – but named Pocket Informant may well deliver the goods. Its pinch-to-zoom interface lets you focus on specific months, days or even hours, with events grouped into categories. You can add notes, too. Alongside calendars are to-do lists, with reminders for upcoming and overdue tasks. All data can be synced online with other devices.</font>]]></app_info>
 			
 			<app_availability>
 				<ios><![CDATA[https://itunes.apple.com/gb/app/pocket-informant-go!/id524741846]]></ios>
@@ -58,7 +58,7 @@
 			
 			<app_name><![CDATA[<span class="appTitle">Brewster <font size="12">(Free)</font> </span>]]></app_name>
 			
-			<app_info><![CDATA[<font size="14">In the words of its founder, Steve Greenwood, Brewster was created with the aim of “fixing your iPhone contacts”. The result is a unified contacts list that can be accessed by your iPhone’s Mail, Message and Phone apps. Brewster allows you to create groups of contacts, and the app automatically updates your contact as job titles, companies and contact details change, importing photos from Facebook or Twitter so you can put a face to every name.</font>]]></app_info>
+			<app_info><![CDATA[<font size="14">In the words of its founder, Steve Greenwood, Brewster was created with the aim of “fixing your iPhone contacts”. The result is a unified contacts list that can be accessed by your iPhone’s Mail, Message and Phone apps. Brewster lets you create groups of contacts, and automatically updates them as job titles, companies and contact details change, importing photos from Facebook or Twitter so you can put a face to every name.</font>]]></app_info>
 			
 			<app_availability>
 				<ios><![CDATA[https://itunes.apple.com/gb/app/brewster-address-book/id440979190]]></ios>
@@ -92,7 +92,7 @@
 			
 			<app_name><![CDATA[<span class="appTitle">5Degrees CRM <font size="12">(Free)</font></span>]]></app_name>
 			
-			<app_info><![CDATA[<font size="14">Designed to complement 5Degrees’ sophisticated online Customer Relationship Management (CRM) system, this app enables you to sort contacts into ‘circles’ (inspired by the Google+ social network), and add tags to provide additional information. It can automatically look up contact’s profile on networks such as LinkedIn. 5Degrees lets you track your relationship history with a client, and helps build new relationships with a scheduled follow-up message after your meeting.</font>]]></app_info>
+			<app_info><![CDATA[<font size="14">Designed to complement 5Degrees’ online Customer Relationship Management (CRM) system, this app lets you sort contacts into ‘circles’ (inspired by the Google+ social network), and tag them with extra information. It can automatically look up a person's profile on networks such as LinkedIn. 5Degrees lets you track your relationship history with a client, and helps build relationships with a scheduled follow-up message after your meeting.</font>]]></app_info>
 			
 			<app_availability>
 				<ios><![CDATA[https://itunes.apple.com/us/app/5degrees-crm/id503191728]]></ios>
@@ -130,7 +130,7 @@
 			
 			<app_name><![CDATA[<span class="appTitle">Goods Order Inventory System <font size="12">(Free)</font></span>]]></app_name>
 			
-			<app_info><![CDATA[<font size="14">Originally launched for iPhone and iPad, this app’s easy-to-use stock management tools are now available for Android devices – complete with a pleasingly pared-back, iOS-style interface. Templates contain just a few basic items – fruit and veg – by default, but they can be customised to suit the needs of most small businesses to allow easy reconciliation of stock against sales and orders. iOS and Android versions sync with a web-based management app, enabling you to keep all your staff up to date.</font>]]></app_info>
+			<app_info><![CDATA[<font size="14">Originally launched for iPhone and iPad, this app’s easy-to-use stock management tools are now available for Android devices. Templates contain just a few basic items – fruit and veg – by default, but can be customised to suit the needs of most small businesses, allowing easy reconciliation of stock against sales and orders. iOS and Android versions sync with a web-based management app, enabling you to keep all your staff up to date.</font>]]></app_info>
 			
 			<app_availability>
 				<ios><![CDATA[https://itunes.apple.com/us/app/goods-order-inventory-system/id734289196?mt=8]]></ios>
@@ -148,7 +148,7 @@
 			
 			<app_name><![CDATA[Lettuce <font size="12">(Free)</font>]]></app_name>
 			
-			<app_info><![CDATA[<font size="14">This iPad-only app allows small businesses to keep track inventory, enabling users to manage an interactive catalogue of products, and supporting the back end with sophisticated inventory-tracking tools. Safe and secure capture of credit card information on orders, plus access to recently viewed and ordered products means users can get useful real-time feedback on which products are proving popular – plus there’s integration with QuickBooks and delivery services such as UPS and FedEx to manage the buying process from end to end.</font>]]></app_info>
+			<app_info><![CDATA[<font size="14">This iPad-only app allows users to manage an interactive catalogue of products, with a back end that offers sophisticated inventory-tracking tools. Secure capture of credit card information on orders, and access to recently viewed and ordered products, provides feedback on which products are proving popular – plus there’s integration with QuickBooks and delivery services such as UPS and FedEx to manage the buying process from end to end.</font>]]></app_info>
 			
 			<app_availability>
 				<ios><![CDATA[https://itunes.apple.com/us/app/lettuce/id534470856]]></ios>
@@ -263,7 +263,7 @@
 			
 			<app_name><![CDATA[<span class="appTitle">Kashoo</span>]]></app_name>
 			<app_header><![CDATA[<span class="appHeader">Free app; packages from $20 a month</span>]]></app_header>
-			<app_info><![CDATA[<span class="appHeader">Kashoo claims to save small business users an average of 5-10 hours a month doing their books. It ditches cumbersome spreadsheet-style accounting in favour or simple task-based forms, enabling freelancers and small firms to create invoices and reports and mange tax – though it lacks some of its competitors’ project-management facilities. </span>]]></app_info>
+			<app_info><![CDATA[<span class="appHeader">Kashoo claims to save small business users an average of 5-10 hours a month doing their books. It ditches cumbersome spreadsheet-style accounting in favour of simple task-based forms, enabling freelancers and small firms to create invoices and reports and mange tax – though it lacks some of its competitors’ project-management facilities. </span>]]></app_info>
 			
 			<app_availability>
 				<ios><![CDATA[https://itunes.apple.com/gb/app/kashoo-accounting/id442878143]]></ios>	
