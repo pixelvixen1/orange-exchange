@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings
+
+rotationKind="1" 
+rotationSpeed="5" 
+enableMouseWheel="1"
+stopRotatingOnMouseOver="1"
+
+autoRotateMode="0"
+autoRotateInterval="1"
+stopAutoRotateOnClick="1"
+
+useTooltip="true"
+showTooltipHelp="true"
+tooltipHelpMove="CLICK TO ROTATE TO FRONT"
+tooltipHelpLink="CLICK FOR MORE DETAILS"
+
+useNavigationButtons="1"
+navigationY = "400"
+
+spanX="300" 
+spanY="80"
+centerX="500" 
+centerY="400"
+distanceValue="0" 
+distanceDarken="0" 
+perspectiveRatio="1"
+minimumscale="0.3" 
+
+useFocalBlur="1" 
+focalBlurValue=".2" 
+useMotionBlur="1" 
+motionBlurValue=".25" 
+useFadeOnMouseOver="1"
+mouseOverDarkness="0"  
+useReflection="0" 
+reflectionAlphaValue=".4"
+frontThumbNumber = "0"
+showClonePhone = "0"
+/>
+
+<thumbs>
+	
+	<thumb
+		trackingURL="SAMSUNG-GALAXY-S4-MINI"
+		type="swf"
+		imageURL="images/voice_devices/samsung_galaxy_s4_mini.swf"
+		imageScale = "85"
+		captionText="SAMSUNG GALAXY S4 MINI" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="1">
+		
+			<main_text x="auto" y="60">
+				<title><![CDATA[<span class="devicesMainContentHeader">SAMSUNG GALAXY S4 MINI</span>]]></title>					
+				<content><![CDATA[
+				<span class="devicesMainContentBody">A powerful, compact smartphone designed to fit your busy lifestyle –perfection on superfast 4GEE.</span>
+				<br/><br/>
+				<span class="devicesMainContentSubHeader">Want to go superfast? Call 0800 079 0261</span>
+				]]></content>	
+				<video active="true" url="flv/devices_Samsung_Galaxy_S4_mini.flv">
+					<label><![CDATA[<span class="yellowButtonLabel">WATCH SAMSUNG GALAXY S4 MINI VIDEO &#62;</span>]]></label>
+				</video>
+			</main_text>
+	
+			<highlights x="auto" y="auto" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText">Capture important moments in life with <span class="highlightsTextBold">Sound & Shot</span>, which stores sounds and images together</span>]]></text>
+				<text><![CDATA[<span class="highlightsText"><span class="highlightsTextBold">S Translator</span> for instant translation using text or voice on email, text message and ChatON</span>]]></text>				
+				<text><![CDATA[<span class="highlightsText">To watch the Galaxy S4 Mini in action, search for S4 Mini at <a href="http://www.youtube.com/watch?v=53oUqlCZ7mw&feature=c4-overview-vl&list=PLSqmemlA84imBNyZkO7nkkCQZW5WxQJZq" target="_blank" class="highlightsTextBold">youtube.com/ee</a></span>]]></text>
+			</highlights>	
+			
+			<phone_spec x="670" y="68">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">talk time / standby time</span>]]></label>
+					<value><![CDATA[<span class="specsValue">12 hrs / 12.5 days</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">operating system</span>]]></label>
+					<value><![CDATA[<span class="specsValue">4.2.2 (Jelly Bean)</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">size</span>]]></label>
+					<value><![CDATA[<span class="specsValue">124.6mm x 61.3mm x 8.9mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">weight</span>]]></label>
+					<value><![CDATA[<span class="specsValue">107g</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">main camera</span>]]></label>
+					<value><![CDATA[<span class="specsValue">8MP</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">flash</span>]]></label>
+					<value><![CDATA[<span class="specsValue">LED</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">touchscreen</span>]]></label>
+					<value><![CDATA[<span class="specsValue">capacitive</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">screen type</span>]]></label>
+					<value><![CDATA[<span class="specsValue">4.3-inch Super AMOLED</span>]]></value>
+				</spec>
+					<spec>
+					<label><![CDATA[<span class="specsLabel">screen (pixels)</span>]]></label>
+					<value><![CDATA[<span class="specsValue">580 x 960</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">internal memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">8GB</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">external memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 64GB MicroSD</span>]]></value>
+				</spec>			
+			</phone_spec>
+	</thumb>
+
+	<thumb
+		trackingURL="Sony_Xperia_Z1"
+		type="swf"
+		imageURL="images/voice_devices/sony_xperia_Z1_phone.swf" 
+		imageScale = "83"
+		captionText="SONY XPERIA™ Z1" 
+		captionText2="" 
+		enableButtonWhenInFront="1" 
+		screenType="1">
+		
+			<main_text x="auto" y="90">
+				<title><![CDATA[<span class="devicesMainContentHeader">SONY XPERIA™ Z1</span>]]></title>						
+				<content><![CDATA[
+				<span class="devicesMainContentBody">Take your best-ever photos and videos with the latest device from Sony, all on superfast 4GEE from EE</span>
+				<br/><br/>
+				<span class="devicesMainContentSubHeader">Want to go superfast? Call 0800 079 0261</span>
+				]]></content>	
+				<video active="true" url="flv/devices_Sony_Xperia_Z1.flv">
+					<label><![CDATA[<span class="yellowButtonLabel">WATCH SONY XPERIA™ Z1 VIDEO &#62;</span>]]></label>
+				</video>
+			</main_text>
+
+			<highlights x="auto" y="auto" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText">Have fun with <span class="highlightsTextBold">live video streaming</span> to Facebook via Social Live</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Large <span class="highlightsTextBold">20.7MP built-in camera</span> gives you the quality you’d expect from a standalone digital camera </span>]]></text>	
+				<text><![CDATA[<span class="highlightsText"><span class="highlightsTextBold">Waterproof</span> and <span class="highlightsTextBold">dust</span> resistant </span>]]></text>					
+			</highlights>
+			
+			<phone_spec x="670" y="74">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">talk time / standby time</span>]]></label>
+					<value><![CDATA[<span class="specsValue">11 hrs / 21 days</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">operating system</span>]]></label>
+					<value><![CDATA[<span class="specsValue">Android 4.1 (Jelly Bean)</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">size</span>]]></label>
+					<value><![CDATA[<span class="specsValue">139mm x 71mm x 7.9mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">camera</span>]]></label>
+					<value><![CDATA[<span class="specsValue">13MP</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">flash</span>]]></label>
+					<value><![CDATA[<span class="specsValue">LED</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">touchscreen</span>]]></label>
+					<value><![CDATA[<span class="specsValue">capacitive</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">screen type</span>]]></label>
+					<value><![CDATA[<span class="specsValue">5 inch TFT</span>]]></value>
+				</spec>
+					<spec>
+					<label><![CDATA[<span class="specsLabel">screen (pixels)</span>]]></label>
+					<value><![CDATA[<span class="specsValue">1920 x 1080</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">internal memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">16GB</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">external memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 32GB MicroSD</span>]]></value>
+				</spec>			
+			</phone_spec>
+	</thumb>	
+		
+
+	<thumb
+		trackingURL="Sony Xperia SP"
+		type="swf"
+		imageURL="images/voice_devices/sony_xperia_SP_phone.swf" 
+		imageScale = "85"
+		captionText="SONY XPERIA SP" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="1">
+		
+			<main_text x="auto" y="30">
+				<title><![CDATA[<span class="devicesMainContentHeader">SONY XPERIA™ SP</span>]]></title>		
+				<content><![CDATA[
+				<span class="devicesMainContentBody">Designed with a connoisseur’s eye but smartly practical, this stunning handset combines good looks with one-touch functionality, helping you make the most of superfast 4GEE.</span>
+				<br/><br/>
+				<span class="devicesMainContentSubHeader">Want to go superfast? Call 0800 079 0261</span>
+				]]></content>
+				
+				<video active="true" url="flv/devices_Sony_Xperia_SP.flv">
+					<label><![CDATA[<span class="yellowButtonLabel">WATCH SONY XPERIA™ SP VIDEO &#62;</span>]]></label>
+				</video>
+			</main_text>
+			
+			<highlights x="auto" y="auto" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="hts">HD Reality display powered by <span class="htbs">BRAVIA® Engine 2</span>, as used by Sony’s big-screen TVs</span>]]></text>
+				<text><![CDATA[<span class="hts">8MP camera features <span class="htbs">Exmor RS™</span> image sensor technology for more vivid colours and stunning clarity, even in low light</span>]]></text>				
+				<text><![CDATA[<span class="hts">Use <span class="htbs">NFC</span> to connect devices with a single tap</span>]]></text>
+				<text><![CDATA[<span class="hts">Access a world of videos, games and other content through the <span class="htbs">Sony Entertainment Network</span></span>]]></text>				
+			</highlights>
+
+			<phone_spec x="670" y="74">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">talk time / standby time</span>]]></label>
+					<value><![CDATA[<span class="specsValue">18 hrs / 30.5 days</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">operating system</span>]]></label>
+					<value><![CDATA[<span class="specsValue">Android 4.1 (Jelly Bean)</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">size</span>]]></label>
+					<value><![CDATA[<span class="specsValue">130.6mm x 67.1mm x 10mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">camera</span>]]></label>
+					<value><![CDATA[<span class="specsValue">8MP</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">flash</span>]]></label>
+					<value><![CDATA[<span class="specsValue">LED</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">touchscreen</span>]]></label>
+					<value><![CDATA[<span class="specsValue">capacitive</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">screen type</span>]]></label>
+					<value><![CDATA[<span class="specsValue">4.6 inch TFT</span>]]></value>
+				</spec>
+					<spec>
+					<label><![CDATA[<span class="specsLabel">screen (pixels)</span>]]></label>
+					<value><![CDATA[<span class="specsValue">1280 x 720</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">internal memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">8GB</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">external memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 32GB MicroSD</span>]]></value>
+				</spec>			
+			</phone_spec>
+	</thumb>	
+	
+	
+	<thumb
+		trackingURL="HTC_One_XL"
+		type="swf"
+		imageURL="images/voice_devices/htc_one_phone.swf" 
+		imageScale = "85"
+		captionText="HTC ONE" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="1">
+		
+			<main_text x="auto" y="30">
+				<title><![CDATA[<span class="devicesMainContentHeader">HTC ONE</span>]]></title>		
+				<content><![CDATA[
+				<span class="devicesMainContentSubHeader">Superb for video, photography and more</span><br/>
+				<span class="devicesMainContentBody">With more than 300 new features, a completely new live home screen, first-of-its-kind living photo gallery and dual frontal stereo HTC BoomSound speakers, the new HTC One is the perfect partner for 4G.</span>
+				<br/><br/>
+				<span class="devicesMainContentSubHeader">Want to go superfast? Call 0800 079 0261</span>
+				]]></content>	
+				
+				<video active="true" url="flv/devices_htc_one.flv">
+					<label><![CDATA[<span class="yellowButtonLabel">WATCH HTC ONE VIDEO &#62;</span>]]></label>
+				</video>
+			</main_text>
+			
+			<highlights x="auto" y="auto" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText">Favourite content streamed onto the new live home screen with</span><span class="highlightsTextBold"> BlinkFeed</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Watch your <span class="highlightsTextBold">HTC Zoe™ Photos</span> literally come to life in a living, breathing gallery</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Get perfect images with one-press</span> <span class="highlightsTextBold">continuous shooting</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Take control of your TV viewing with the <span class="highlightsTextBold">HTC Sense TV</span> interactive TV guide</span>]]></text>
+			</highlights>
+
+			<phone_spec x="670" y="80">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">talk time / standby time</span>]]></label>
+					<value><![CDATA[<span class="specsValue">18 hrs / 20 days</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">operating system</span>]]></label>
+					<value><![CDATA[<span class="specsValue">Android 4.1 (Jelly Bean)</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">size</span>]]></label>
+					<value><![CDATA[<span class="specsValue">137.4mm x 68.2mm x 9.3mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">main camera</span>]]></label>
+					<value><![CDATA[<span class="specsValue">HTC Ultrapixel</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">flash</span>]]></label>
+					<value><![CDATA[<span class="specsValue">LED</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">touchscreen</span>]]></label>
+					<value><![CDATA[<span class="specsValue">capacitive</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">screen type</span>]]></label>
+					<value><![CDATA[<span class="specsValue">4.7 inch TFT</span>]]></value>
+				</spec>
+					<spec>
+					<label><![CDATA[<span class="specsLabel">screen (pixels)</span>]]></label>
+					<value><![CDATA[<span class="specsValue">1920 x 1080</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">internal memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">2GB</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">external memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 64GB MicroSD</span>]]></value>
+				</spec>	
+			</phone_spec>
+	</thumb>			
+	
+	<thumb
+		trackingURL="BLACKBERRY_Q5"
+		type="swf"
+		imageURL="images/voice_devices/blackberry_Q5_phone.swf" 
+		imageScale = "85"
+		captionText="BLACKBERRY® Q5" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="1">
+		
+			<main_text x="auto" y="40">
+				<title><![CDATA[<span class="devicesMainContentHeader">BLACKBERRY® Q5</span>]]></title>					
+				<content><![CDATA[
+				<span class="devicesMainContentBody">Explore, create and share on the go using the new BlackBerry® Q5 with classic BlackBerry® Keyboard. </span><br/><br/>
+				<span class="devicesMainContentSubHeader">Want to go superfast? Call 0800 079 0261</span>
+				]]></content>	
+				
+				<video active="true" url="flv/devices_BlackberryQ5.flv">
+					<label><![CDATA[<span class="yellowButtonLabel">WATCH BLACKBERRY® Q5 VIDEO &#62;</span>]]></label>
+				</video>
+			</main_text>
+
+			<highlights x="auto" y="auto" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText">Meet the classic <span class="highlightsTextBold">BlackBerry® Keyboard</span>, now with Instant Action for superfast searches </span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Capture the right moment in every picture with <span class="highlightsTextBold">Time Shift</span> </span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Chat <span class="highlightsTextBold">face-to-face</span> and share moments, ideas and passions in real-time using BBM™ Video with Screen Share </span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Search for the BlackBerry® Q5 at <a href="http://www.youtube.com/ee" target="_blank" class="highlightsTextBold">youtube.com/ee</a> </span>]]></text>
+			</highlights>	
+	
+			<phone_spec x="670" y="74">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">talk time / standby time</span>]]></label>
+					<value><![CDATA[<span class="specsValue">12.5 hrs / 14 days</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">operating system</span>]]></label>
+					<value><![CDATA[<span class="specsValue">BlackBerry® 10</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">size</span>]]></label>
+					<value><![CDATA[<span class="specsValue">120mm x 66mm x 10.8mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">camera</span>]]></label>
+					<value><![CDATA[<span class="specsValue">5MP</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">flash</span>]]></label>
+					<value><![CDATA[<span class="specsValue">LED</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">touchscreen</span>]]></label>
+					<value><![CDATA[<span class="specsValue">capacitive</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">screen type</span>]]></label>
+					<value><![CDATA[<span class="specsValue">3.1-inch TFT</span>]]></value>
+				</spec>
+					<spec>
+					<label><![CDATA[<span class="specsLabel">screen (pixels)</span>]]></label>
+					<value><![CDATA[<span class="specsValue">720 x 720</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">internal memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">8GB</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">external memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 32GB MicroSD</span>]]></value>
+				</spec>			
+			</phone_spec>
+	</thumb>
+
+	<thumb
+		trackingURL="BLACKBERRY_Z10"
+		type="swf"
+		imageURL="images/voice_devices/blackberry_z10_phone.swf"
+		imageScale = "85"
+		captionText="BLACKBERRY® Z10" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="1">
+		
+			<main_text x="auto" y="60">
+				<title><![CDATA[<span class="devicesMainContentHeader">BLACKBERRY® Z10</span>]]></title>					
+				<content><![CDATA[
+				<span class="devicesMainContentBody">Intelligent and intuitive touchscreen handset that adapts to your needs.</span>
+				<br/><br/>
+				<span class="devicesMainContentSubHeader">Want to go superfast? Call 0800 079 0261</span>
+				]]></content>	
+				<video active="true" url="flv/devices_BlackBerryZ10.flv">
+					<label><![CDATA[<span class="yellowButtonLabel">WATCH BLACKBERRY® Z10 VIDEO &#62;</span>]]></label>
+				</video>
+			</main_text>
+	
+			<highlights x="auto" y="auto" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText">Peek into the <span class="highlightsTextBold">BlackBerry® Hub</span> from any app </span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Reinvented <span class="highlightsTextBold">BlackBerry® Keyboard</span> for the most effortless typing experience </span>]]></text>				
+				<text><![CDATA[<span class="highlightsText">Chat <span class="highlightsTextBold">face-to-face</span> and share moments, ideas and passions in <span class="highlightsTextBold">real-time</span> using BBM™ Video with Screen Share </span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Create the perfect shot every time with <span class="highlightsTextBold">Time Shift mode</span> and BlackBerry® Story Maker </span>]]></text>
+			</highlights>	
+			
+			<phone_spec x="670" y="74">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">talk time / standby time</span>]]></label>
+					<value><![CDATA[<span class="specsValue">11 hrs / 13 days</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">operating system</span>]]></label>
+					<value><![CDATA[<span class="specsValue">BlackBerry® 10</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">size</span>]]></label>
+					<value><![CDATA[<span class="specsValue">130mm x 65.6mm x 9mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">camera</span>]]></label>
+					<value><![CDATA[<span class="specsValue">8MP</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">flash</span>]]></label>
+					<value><![CDATA[<span class="specsValue">LED</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">touchscreen</span>]]></label>
+					<value><![CDATA[<span class="specsValue">capacitive</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">screen type</span>]]></label>
+					<value><![CDATA[<span class="specsValue">4.2-inch TFT</span>]]></value>
+				</spec>
+					<spec>
+					<label><![CDATA[<span class="specsLabel">screen (pixels)</span>]]></label>
+					<value><![CDATA[<span class="specsValue">1280 x 720</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">internal memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">16GB</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">external memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 32GB MicroSD</span>]]></value>
+				</spec>			
+			</phone_spec>
+	</thumb>	
+
+</thumbs>
+
+
+<extras>
+	<header_text><![CDATA[ <span class="devicesPageHeader">4GEE SMARTPHONES</span>]]></header_text>
+	<sub_header_text><![CDATA[<span class="devicesPageSubHeader">Click on each device to reveal more details, plus get exclusive 4GEE demo videos.<a href="http://www.orangeexchange.co.uk/dir39/#/move_to_4GEE/"><font color="#FFE600"> Click here</a></font> to view 4GEE phone plans.</span>]]></sub_header_text>
+</extras>

@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings
+
+rotationKind="1" 
+rotationSpeed="5" 
+enableMouseWheel="1"
+stopRotatingOnMouseOver="1"
+
+autoRotateMode="0"
+autoRotateInterval="1"
+stopAutoRotateOnClick="1"
+
+useTooltip="1"
+showTooltipHelp="1"
+tooltipHelpMove="CLICK TO ROTATE TO FRONT"
+tooltipHelpLink="CLICK FOR MORE DETAILS"
+
+useNavigationButtons="1"
+navigationY = "430"
+
+spanX="340" 
+spanY="80"
+centerX="490" 
+centerY="400"
+distanceValue="0" 
+distanceDarken="0" 
+perspectiveRatio="1"
+minimumscale="0.3" 
+
+useFocalBlur="1" 
+focalBlurValue=".2" 
+useMotionBlur="1" 
+motionBlurValue=".25" 
+useFadeOnMouseOver="1"
+mouseOverDarkness="0"  
+useReflection="0" 
+reflectionAlphaValue=".4"
+frontThumbNumber = "0"
+showClonePhone = "0"
+/>
+
+<thumbs>	
+	
+	<thumb
+		trackingURL="Huawei_E5776"
+		type="swf"
+		imageURL="images/data_devices/huawei_E5776.swf"
+		imageScale = "55"
+		captionText="HUAWEI E5776 4G MOBILE WIFI" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="2">
+		
+			<main_text x="auto" y="40">
+				<title><![CDATA[<span class="devicesMainContentHeader">HUAWEI E5776 4G MOBILE WIFI</span>]]></title>		
+				<content><![CDATA[
+					<span class="devicesMainContentBody">You don’t want to be tied to your desk all day when you could be out and about meeting clients – while staying in touch with the office. That’s where the Huawei E5776 comes in. Now you can enjoy 4G wireless broadband network access anytime, anywhere.</span>
+				]]></content>
+			</main_text>
+		
+			<highlights x="auto" y="210" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText">Great for adding <span class="highlightsTextBold">4GEE connectivity</span><br />to 3G or WiFi-enabled devices</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Handles up to <span class="highlightsTextBold">10 devices at once</span> including smartphones, laptops and tablets</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Easily fits into your pocket,<br />handbag or briefcase</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Keeps going for up to <span class="highlightsTextBold">10 hours</span> before recharge</span>]]></text>
+			</highlights>
+			
+			<phone_spec x="auto" y="180">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">display</span>]]></label>
+					<value><![CDATA[<span class="specsValue">1.45-inch TFT</span>]]></value>
+				</spec>			
+				<spec>
+					<label><![CDATA[<span class="specsLabel">dimensions</span>]]></label>
+					<value><![CDATA[<span class="specsValue">106mm x 66mm x 15.5mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">weight</span>]]></label>
+					<value><![CDATA[<span class="specsValue">150g</span>]]></value>
+				</spec>						
+				<spec>
+					<label><![CDATA[<span class="specsLabel">battery life</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 10 hours</span>]]></value>
+				</spec>				
+			</phone_spec>
+	</thumb>
+
+	
+	
+	<thumb
+		trackingURL="nexus7"
+		type="swf"
+		imageURL="images/data_devices/nexus7_data.swf" 
+		imageScale = "80"
+		captionText="ASUS NEXUS 7 BY GOOGLE" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="3">
+		
+			<main_text x="auto" y="30">
+				<title><![CDATA[<span class="devicesMainContentHeader">ASUS NEXUS 7 BY GOOGLE</span>]]></title>				
+				<content><![CDATA[
+				<span class="devicesMainContentSubHeader">Redesigned for ultimate power<br/>with portability</span><br/>
+				<span class="devicesMainContentBody">The new Nexus 7 has plenty packed into its tiny dimensions. Its 7-inch display offers true Full HD – perfect for entertainment on the move. It’s also the first tablet to come with the brand new Android 4.3.</span>]]></content>	
+			</main_text>
+			
+			<highlights x="auto" y="190" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText"><span class="highlightsTextBold">7-inch</span> display with a Full HD resolution of 1920x1200 </span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Just <span class="highlightsTextBold">8.65mm</span> thick and weighing only 292g, the new Nexus 7 is thinner, lighter and faster than ever</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Powerful <span class="highlightsTextBold">quad-core processor</span> and <span class="highlightsTextBold">wireless charging</span></span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Available with a <span class="highlightsTextBold">Mobile WiFi</span> on 4GEE for superfast mobile internet when you’re on the go</span>]]></text>
+			</highlights>	
+
+			<phone_spec x="auto" y="95">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">display</span>]]></label>
+					<value><![CDATA[<span class="specsValue">7-inch</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">operating system</span>]]></label>
+					<value><![CDATA[<span class="specsValue">Android 4.3 (Jelly Bean)</span>]]></value>
+				</spec>			
+				<spec>
+					<label><![CDATA[<span class="specsLabel">battery life</span>]]></label>
+					<value><![CDATA[<span class="specsValue">9 hrs</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">dimensions</span>]]></label>
+					<value><![CDATA[<span class="specsValue">200 x 114 x 8.65mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">camera</span>]]></label>
+					<value><![CDATA[<span class="specsValue">5MP</span>]]></value>
+				</spec>				
+				<spec>
+					<label><![CDATA[<span class="specsLabel">memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">2GB</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">storage</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 64GB MicroSD</span>]]></value>
+				</spec>
+			</phone_spec>
+		
+			<special_offer x="auto" y="75">
+				<title_text><![CDATA[<span class="specialOfferTitle">GOOGLE NEXUS 7<br/>PLUS MOBILE WIFI</span>]]></title_text>
+				<bodyText><![CDATA[<span class="specialOfferBody">Get a Google Nexus 7 and Alcatel Mobile WiFi with 3GB of data for only £21.66 a month on EE.</span>]]></bodyText>
+				<button><![CDATA[<span class="blueButtonLabel">VISIT EE FOR MORE DETAILS &#62;</span>]]></button>
+				<link>http://business.ee.co.uk/small-business/products/phones-and-devices/mobile-broadband/google-nexus-7</link>
+				<imgURL>images/data_devices/al_wifi.png</imgURL>
+				<image imgx="90" imgy="150" />
+			</special_offer>
+	</thumb>
+	
+	
+	<thumb
+		trackingURL="Alcatel_Y800_Mobile_wifi"
+		type="swf"
+		imageURL="images/data_devices/alcatel_data.swf" 
+		imageScale = "82"
+		captionText="ALCATEL ONE TOUCH Y800 MOBILE WIFI" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="1">
+		
+			<main_text x="auto" y="30">
+				<title><![CDATA[<span class="devicesMainContentHeader">ALCATEL ONE TOUCH Y800 MOBILE WIFI</span>]]></title>						
+				<content><![CDATA[
+				<span class="devicesMainContentSubHeader">Connect up to 10 devices simultaneously</span><br/>
+				<span class="devicesMainContentBody">The Alcatel Y800 Mobile WiFi lets you enjoy superfast mobile internet on the move, opening up a new world of possibilities for what you can do on your devices when you’re out.</span>
+				]]></content>		
+			</main_text>
+			
+			<highlights x="auto" y="auto" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText">Streamlined, portable device that fits easily into your <span class="highlightsTextBold">bag or pocket</span></span>]]></text>
+				<text><![CDATA[<span class="highlightsText"><span class="highlightsTextBold">Outstanding battery life</span> of up to 10 hours</span>]]></text>				
+				<text><![CDATA[<span class="highlightsText">Allows up to <span class="highlightsTextBold">10 devices</span> to access superfast mobile broadband</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Supports a <span class="highlightsTextBold">range of WiFi devices</span> including mobile phones, tablets, laptops, e-book readers and portable gaming consoles</span>]]></text>
+			</highlights>	
+
+			<phone_spec x="670" y="90">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">display</span>]]></label>
+					<value><![CDATA[<span class="specsValue">0.96-inch OLED</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">battery life</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 10 hours</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">dimensions</span>]]></label>
+					<value><![CDATA[<span class="specsValue">123 x 58.5 x 14mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">weight</span>]]></label>
+					<value><![CDATA[<span class="specsValue">108g</span>]]></value>
+				</spec>
+			</phone_spec>
+	</thumb>	
+	
+	<thumb
+		trackingURL="HUAWEI_E392_4G_USB_STICK"
+		type="swf"
+		imageURL="images/data_devices/huawei_E392_LTE.swf" 
+		imageScale = "65"
+		captionText="HUAWEI E392 4G USB STICK" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="1">
+		
+			<main_text x="auto" y="50">
+				<title><![CDATA[<span class="devicesMainContentHeader">HUAWEI E392 4G USB STICK</span>]]></title>						
+				<content><![CDATA[
+				<span class="devicesMainContentBody">You’ve arrived for that important meeting when you realise you’ve forgotten to bring the big presentation with you... But keep calm and fire up superfast 4GEE with the Huawei E392 – you can download enormous attachments on the go, and switch to 3G if you need to.</span>
+				]]></content>		
+			</main_text>
+				
+			
+			<highlights x="auto" y="auto" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText">4GEE USB stick-style dongle</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Enabled to connect to <span class="highlightsTextBold">4GEE wireless broadband network</span> access anytime, anywhere</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Whether you’re emailing, video conferencing or working in the cloud,<br/>the E392 is small and slick enough to let you keep on top of your work wherever you are</span>]]></text>
+			</highlights>	
+
+			<phone_spec x="670" y="80">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">dimensions</span>]]></label>
+					<value><![CDATA[<span class="specsValue">100mm x 35mm x 13.8mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">weight</span>]]></label>
+					<value><![CDATA[<span class="specsValue">40g</span>]]></value>
+				</spec>				
+				<spec>
+					<label><![CDATA[<span class="specsLabel">supported operating systems</span>]]></label>
+					<value><![CDATA[<span class="specsValue">Windows XP SP2/SP3, Vista SP1/SP2, Windows 7,<br />Mac OS X 10.5/10.6/10.7<br />with latest upgrades</span>]]></value>
+				</spec>
+			</phone_spec>
+	</thumb>
+	
+	
+	<thumb
+		trackingURL="Sony_Xperia_Tablet_Z"
+		type="swf"
+		imageURL="images/data_devices/sony_xperia_tablet_z.swf"
+		imageScale = "65"
+		captionText="Sony Xperia Tablet Z" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="2">
+		
+			<main_text x="auto" y="20">
+				<title><![CDATA[<span class="devicesMainContentHeader">SONY XPERIA™ TABLET Z</span>]]></title>		
+				<content><![CDATA[
+					<span class="devicesMainContentSubHeader">Sleek, stylish and on 4GEE – a bright idea you can take anywhere</span><br/>
+					<span class="devicesMainContentBody">Sharp, fast, colourful – and designed for a life with unparalleled connectivity on 4GEE mobile. The Sony Xperia Tablet Z is super-light and super-slim but tough, with a water and dust resistant design that means you’ll be happy to take it with you, wherever you go.</span>
+				]]></content>
+			</main_text>
+			
+			<highlights x="auto" y="220" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText">The <span class="highlightsTextBold">slimmest and lightest</span> 10.1-inch tablet in the world </span>]]></text>
+				<text><![CDATA[<span class="highlightsText">10.1-inch <span class="highlightsTextBold">Full HD Reality Display</span> powered by Sony’s Mobile BRAVIA® Engine 2 for brilliantly vivid viewing </span>]]></text>
+				<text><![CDATA[<span class="highlightsText"><span class="highlightsTextBold">8MP Exmor R™</span> camera for pin-sharp photos and Full HD video</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Tough, go-anywhere water and dust <span class="highlightsTextBold">resistant design</span></span>]]></text>
+			</highlights>	
+			
+			<phone_spec x="auto" y="70">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">display</span>]]></label>
+					<value><![CDATA[<span class="specsValue">10.1-inch Full HD</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">operating system</span>]]></label>
+					<value><![CDATA[<span class="specsValue">Android 4.1 (Jellybean)</span>]]></value>
+				</spec>				
+				<spec>
+					<label><![CDATA[<span class="specsLabel">dimensions</span>]]></label>
+					<value><![CDATA[<span class="specsValue">172mm x 266mm x 6.9mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">weight</span>]]></label>
+					<value><![CDATA[<span class="specsValue">495g</span>]]></value>
+				</spec>						
+				<spec>
+					<label><![CDATA[<span class="specsLabel">battery life / standby</span>]]></label>
+					<value><![CDATA[<span class="specsValue">9.5 hrs / 50 days</span>]]></value>
+				</spec>				
+				<spec>
+					<label><![CDATA[<span class="specsLabel">camera</span>]]></label>
+					<value><![CDATA[<span class="specsValue">8.1MP</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">2GB</span>]]></value>
+				</spec>				
+				<spec>
+					<label><![CDATA[<span class="specsLabel">storage</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 64GB</span>]]></value>
+				</spec>
+			</phone_spec>
+	</thumb>
+	
+	<thumb
+		trackingURL="SAMSUNG_GALAXY_TAB_3_8.0"
+		type="swf"
+		imageURL="images/data_devices/samung_galaxy_tab.swf"
+		imageScale = "80"
+		captionText="SAMSUNG GALAXY TAB 3 8.0" 
+		captionText2="" 
+		enableButtonWhenInFront="1"
+		screenType="1">
+		
+			<main_text x="auto" y="70">
+				<title><![CDATA[<span class="devicesMainContentHeader">SAMSUNG GALAXY TAB 3 8.0</span>]]></title>		
+				<content><![CDATA[
+					<span class="devicesMainContentSubHeader">High performance in a slim, <br/>lightweight design</span><br/>
+					<span class="devicesMainContentBody">The latest in Samsung’s Galaxy Tab range comes with a crystal clear 8-inch display, offering you plenty of usable space without compromising on portability</span>
+				]]></content>
+			</main_text>
+			
+			<highlights x="auto" y="auto" headerLabel="HIGHLIGHTS">
+				<text><![CDATA[<span class="highlightsText">5MP camera for <span class="highlightsTextBold">stunning photos</span> and Full HD video</span>]]></text>
+				<text><![CDATA[<span class="highlightsText">1.5GHz dual-core processor provides <span class="highlightsTextBold">plenty of power</span></span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Dolby Surround and SoundAlive for <span class="highlightsTextBold">superior audio quality</span></span>]]></text>
+				<text><![CDATA[<span class="highlightsText">Instant access to a <span class="highlightsTextBold">wide range of content</span> via Samsung Hub</span>]]></text>
+			</highlights>	
+
+			<phone_spec x="670" y="90">
+				<spec>
+					<label><![CDATA[<span class="specsLabel">display</span>]]></label>
+					<value><![CDATA[<span class="specsValue">8-inch</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">operating system</span>]]></label>
+					<value><![CDATA[<span class="specsValue">Android 4.2 (Jellybean)</span>]]></value>
+				</spec>				
+				<spec>
+					<label><![CDATA[<span class="specsLabel">dimensions</span>]]></label>
+					<value><![CDATA[<span class="specsValue">209.8mm x 123.8mm x 7.4mm</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">weight</span>]]></label>
+					<value><![CDATA[<span class="specsValue">314g</span>]]></value>
+				</spec>						
+				<spec>
+					<label><![CDATA[<span class="specsLabel">battery life</span>]]></label>
+					<value><![CDATA[<span class="specsValue">11 hrs</span>]]></value>
+				</spec>				
+				<spec>
+					<label><![CDATA[<span class="specsLabel">camera</span>]]></label>
+					<value><![CDATA[<span class="specsValue">5MP</span>]]></value>
+				</spec>
+				<spec>
+					<label><![CDATA[<span class="specsLabel">memory</span>]]></label>
+					<value><![CDATA[<span class="specsValue">16GB</span>]]></value>
+				</spec>				
+				<spec>
+					<label><![CDATA[<span class="specsLabel">storage</span>]]></label>
+					<value><![CDATA[<span class="specsValue">up to 64GB</span>]]></value>
+				</spec>
+			</phone_spec>
+	</thumb>
+	
+</thumbs>
+
+
+<extras>
+	<header_text><![CDATA[ <span class="devicesPageHeader">INTERNET ON THE GO</span>]]></header_text>
+	<sub_header_text><![CDATA[<span class="devicesPageSubHeader">Click on each device to reveal more details, plus get exclusive <br/>4GEE demo videos.<a href="http://www.orangeexchange.co.uk/dir39/#/4GEE_data_plans/"><font color="#FFE600"> Click here</a></font> to view data plans.</span>]]></sub_header_text>
+</extras>

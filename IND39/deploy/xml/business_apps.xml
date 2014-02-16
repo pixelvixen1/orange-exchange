@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<section name="PLAN YOUR DIARY">
+		<app name="AnyDo" phoneID="1">
+			<menu_title><![CDATA[<span class="appMenuTitle">AnyDo</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/anydo.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/anydo.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">AnyDo <font size="12">(Free)</font></span>]]></app_name>
+			<app_info><![CDATA[<font size="14">Managing your working life couldn’t be easier. With input options including speech recognition (in a range of languages), Any.do lets you dictate your schedule. And once a task is complete, simply swipe it off your touchscreen. With a clutter-free interface, timely reminders and the ability to sync with other users and via the web, you can use the app to organise your schedule or share task lists and appointments to help manage complex tasks.</font>]]></app_info>
+			
+			<app_availability>
+				<android><![CDATA[https://play.google.com/store/apps/details?id=com.anydo]]></android>
+				<ios><![CDATA[https://itunes.apple.com/gb/app/any.do-task-to-do-list/id497328576]]></ios>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/anydo/img" numOfImages="4" />
+		</app>	
+
+
+		<app name="Pocket Informant" phoneID="2">
+			<menu_title><![CDATA[<span class="appMenuTitle">Pocket Informant</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/Pocket_Informant_Go.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/Pocket_Informant_Go.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">Pocket Informant Pro 3<br/><font size="12">£4.99 (iOS), £4.28 (Android)</font></span>]]></app_name>
+			<app_info><![CDATA[<font size="14">We’ve seen apps that claim to make you a “productivity ninja” before – but named Pocket Informant may well deliver the goods. Its pinch-to-zoom interface lets you focus on specific months, days or even hours, with events grouped into categories. You can add notes, too. Alongside calendars are to-do lists, with reminders for upcoming and overdue tasks. All data can be synced online with other devices.</font>]]></app_info>
+			
+			<app_availability>
+				<ios><![CDATA[https://itunes.apple.com/gb/app/pocket-informant-go!/id524741846]]></ios>
+				<android><![CDATA[https://play.google.com/store/apps/details?id=net.webis.pi3]]></android>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/Pocket/" numOfImages="5" />
+		</app>		
+		
+		<app name="Tempo" phoneID="2">
+			<menu_title><![CDATA[<span class="appMenuTitle">Tempo</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/Tempo.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/Tempo.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">Tempo <font size="12">(Free)</font></span>]]></app_name>
+			<app_info><![CDATA[<span class="appHeader">Developed by the team that brought you Siri, Tempo is a diary manager… with added artificial intelligence. Using your calendar, email, GPS and address book, Tempo helps prepare you for meetings by automatically gathering background information, profiles of attendees and details of how to get there. It’ll even message everybody to let them know if you’re running late.</span>]]></app_info>
+			
+			<app_availability>
+				<ios><![CDATA[https://itunes.apple.com/us/app/tempo-smart-calendar-free/id593819390]]></ios>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/Tempo/" numOfImages="5" />
+		</app>	
+	</section>
+
+	<section name="MANAGE YOUR CONTACTS">
+		<app name="Brewster" phoneID="2">
+			<menu_title><![CDATA[<span class="appMenuTitle">Brewster</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/Brewster.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/Brewster.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">Brewster <font size="12">(Free)</font> </span>]]></app_name>
+			
+			<app_info><![CDATA[<font size="14">In the words of its founder, Steve Greenwood, Brewster was created with the aim of “fixing your iPhone contacts”. The result is a unified contacts list that can be accessed by your iPhone’s Mail, Message and Phone apps. Brewster lets you create groups of contacts, and automatically updates them as job titles, companies and contact details change, importing photos from Facebook or Twitter so you can put a face to every name.</font>]]></app_info>
+			
+			<app_availability>
+				<ios><![CDATA[https://itunes.apple.com/gb/app/brewster-address-book/id440979190]]></ios>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/Brewster/" numOfImages="5" />
+		</app>	
+			
+	
+		<app name="Contacts" phoneID="1">
+			<menu_title><![CDATA[<span class="appMenuTitle">Contacts +</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/ContactsPlus.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/ContactsPlus.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">Contacts + <font size="12">(Free)</font></span>]]></app_name>
+			
+			<app_info><![CDATA[<span class="appHeader">Contacts + is more than just an address book. As well as weeding out and merging duplicate contacts, it enables you to call, send text messages and even receive useful updates from social networking sites, such as your reminders for your contacts’ birthdays – all from within the app. Just swipe left or right from the app’s homescreen to access all of its main features.</span>]]></app_info>
+			
+			<app_availability>
+				<android><![CDATA[https://play.google.com/store/apps/details?id=com.contapps.android]]></android>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/Contacts/" numOfImages="3" />
+		</app>		
+
+		
+		<app name="5Degrees" phoneID="2">
+			<menu_title><![CDATA[<span class="appMenuTitle">5Degrees CRM</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/5Degrees.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/5Degrees.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">5Degrees CRM <font size="12">(Free)</font></span>]]></app_name>
+			
+			<app_info><![CDATA[<font size="14">Designed to complement 5Degrees’ online Customer Relationship Management (CRM) system, this app lets you sort contacts into ‘circles’ (inspired by the Google+ social network), and tag them with extra information. It can automatically look up a person's profile on networks such as LinkedIn. 5Degrees lets you track your relationship history with a client, and helps build relationships with a scheduled follow-up message after your meeting.</font>]]></app_info>
+			
+			<app_availability>
+				<ios><![CDATA[https://itunes.apple.com/us/app/5degrees-crm/id503191728]]></ios>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/5Degrees/" numOfImages="5" />
+		</app>		
+	</section>
+	
+	
+	
+	<section name="INVENTORY APPS">
+		
+		<app name="Inventory Droid" phoneID="1">
+			<menu_title><![CDATA[<span class="appMenuTitle">Inventory Droid</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/InventoryDroid.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/InventoryDroid.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">Inventory Droid <font size="12">(£3.17)</font></span>]]></app_name>
+			
+			<app_info><![CDATA[<span class="appHeader">Inventory Droid provides small businesses with a quick and easy way to keep track of stock. The Android app includes a built-in barcode scanner, and enables users to capture details about items using simple customisable forms. Data can be imported and exported for use in other applications as CSV files, and emailed direct from the app. Inventory Droid even offers reminders to help pay bills on time and keep up to date with other time-sensitive tasks.</span>]]></app_info>
+			
+			<app_availability>
+				<android><![CDATA[https://play.google.com/store/apps/details?id=com.app.inventorydroid&hl=en]]></android>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/InventoryDroid/" numOfImages="4" />
+		</app>			
+				
+		
+		<app name="Goods Order Inventory System" phoneID="1">
+			<menu_title><![CDATA[<span class="appMenuTitle">Goods Order Inventory System</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/goods.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/goods.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">Goods Order Inventory System <font size="12">(Free)</font></span>]]></app_name>
+			
+			<app_info><![CDATA[<font size="14">Originally launched for iPhone and iPad, this app’s easy-to-use stock management tools are now available for Android devices. Templates contain just a few basic items – fruit and veg – by default, but can be customised to suit the needs of most small businesses, allowing easy reconciliation of stock against sales and orders. iOS and Android versions sync with a web-based management app, enabling you to keep all your staff up to date.</font>]]></app_info>
+			
+			<app_availability>
+				<ios><![CDATA[https://itunes.apple.com/us/app/goods-order-inventory-system/id734289196?mt=8]]></ios>
+				<android><![CDATA[https://play.google.com/store/apps/details?id=com.metaoption.goodsorder]]></android>
+				<windows><![CDATA[http://www.goodsorderinventory.com]]></windows>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/GoodsOrder/" numOfImages="5" />
+		</app>	
+		
+		<app name="Lettuce" phoneID="5">
+			<menu_title><![CDATA[<span class="appMenuTitle">Lettuce</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/Lettuce.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/Lettuce.png</app_icon>
+			
+			<app_name><![CDATA[Lettuce <font size="12">(Free)</font>]]></app_name>
+			
+			<app_info><![CDATA[<font size="14">This iPad-only app allows users to manage an interactive catalogue of products, with a back end that offers sophisticated inventory-tracking tools. Secure capture of credit card information on orders, and access to recently viewed and ordered products, provides feedback on which products are proving popular – plus there’s integration with QuickBooks and delivery services such as UPS and FedEx to manage the buying process from end to end.</font>]]></app_info>
+			
+			<app_availability>
+				<ios><![CDATA[https://itunes.apple.com/us/app/lettuce/id534470856]]></ios>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/Lettuce/" numOfImages="4" />
+		</app>	
+	</section>	
+	
+	
+	<section name="PROJECT/DATA MANAGEMENT">
+
+		<app name="SnapPea" phoneID="1">
+			<menu_title><![CDATA[<span class="appMenuTitle">SnapPea</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/SnapPea.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/SnapPea.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">SnapPea <font size="12">(Free)</font></span>]]></app_name>
+			
+			<app_info><![CDATA[<span class="appHeader">SnapPea makes it easy to share the content of your Android device with any computer. Install the app and sign up for an online account, and you can preview photos, messages and apps plus transfer audio, video and other files using your browser or a dedicated PC application. You can even use it to send text messages using your computer.</span>]]></app_info>
+			
+			<app_availability>
+				<android><![CDATA[https://play.google.com/store/apps/details?id=com.snappea&hl=en]]></android>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/SnapPea/" numOfImages="4" />
+		</app>	
+						
+		<app name="Trello" phoneID="2">
+			<menu_title><![CDATA[<span class="appMenuTitle">Trello</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/Trello.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/Trello.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">Trello <font size="12">(Free)</font></span>]]></app_name>
+			
+			<app_info><![CDATA[<span class="appHeader">Trello describes its organiser app as “a whiteboard with superpowers”. Create to-do lists wherever you are, assign tasks to specific co-workers and assemble a checklist so that you can see at a glance what has been done and who is working on it. You can also add cards with your comments. All info is synced via the cloud and accessible via the web – perfect for managing anything from a personal project to a team of freelancers.</span>]]></app_info>
+			
+			<app_availability>
+				<ios><![CDATA[https://itunes.apple.com/gb/app/trello-organize-anything/id461504587]]></ios>
+				<android><![CDATA[https://play.google.com/store/apps/details?id=com.trello&hl=en_GB]]></android>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/Trello/" numOfImages="5" />
+		</app>	
+		
+		
+		<app name="Wunderlist" phoneID="2">
+			<menu_title><![CDATA[<span class="appMenuTitle">Wunderlist</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/Wunderlist.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/Wunderlist.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">Wunderlist <font size="12">(Free)</font> </span>]]></app_name>
+			
+			<app_info><![CDATA[<span class="appHeader">Soon to be updated in early 2014 to version 3, which promises a host of new features, this turbo-charged to-do list manager boasts a user base of 6 million. Wunderlist lets you create to-do lists that can be synced with devices on all major platforms, and enable you to manage complex projects via the creation of sub-lists of tasks. The Pro version, available for $4.99 a month, enables you to add comments, leave feedback and chat with collaborators.</span>]]></app_info>
+			
+			<app_availability>
+				<ios><![CDATA[https://itunes.apple.com/gb/app/wunderlist-to-do-task-list/id406644151]]></ios>
+				<android><![CDATA[https://play.google.com/store/apps/details?id=com.wunderkinder.wunderlistandroid&hl=en]]></android>
+				<windows><![CDATA[http://www.windowsphone.com/en-gb/store/app/wunderlist/c8f0b443-4ff0-4cb6-8fd3-c1c04b6799f2]]></windows>			
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/Wunderlist/" numOfImages="5" />
+		</app>			
+	</section>
+	
+	
+	<section name="BUSINESS-FINANCE">
+
+		<app name="Sage50" phoneID="1">
+			<menu_title><![CDATA[<span class="appMenuTitle">Sage50</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/Sage50.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/Sage50.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">Sage 50</span>]]></app_name>
+			<app_header><![CDATA[<span class="appHeader">Free app; packages from £619 a year</span>]]></app_header>
+			<app_info><![CDATA[<span class="appHeader">Aimed at giving Sage 50 users access to an overview of their accounts while they’re on the go, this mobile app provides up-to-date snapshots and top-line summaries, plus the ability to check sales histories and product performance, and generate quotes and invoices. A free download for existing users of Sage’s desktop accounting system. </span>]]></app_info>
+			
+			<app_availability>
+				<android><![CDATA[https://play.google.com/store/apps/details?id=uk.co.sagemobile.android&hl=en_GB]]></android>
+				<ios><![CDATA[https://itunes.apple.com/gb/app/sage-50/id449575552]]></ios>
+				<windows><![CDATA[http://apps.microsoft.com/windows/en-ie/app/sage-50-accounts-pulse/53ab30c1-94c4-4448-b4e7-7be6fb68811e]]></windows>
+				<blackberry><![CDATA[http://appworld.blackberry.com/webstore/content/54010/?countrycode=GB&lang=en]]></blackberry>	
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/Sage50/" numOfImages="5" />
+		</app>	
+		
+		
+						
+		<app name="QuickBooks" phoneID="1">
+			<menu_title><![CDATA[<span class="appMenuTitle">QuickBooks </span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/QuickBooks.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/QuickBooks.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">QuickBooks</span>]]></app_name>
+			<app_header><![CDATA[<span class="appHeader">Free app; packages from £8.99 a month</span>]]></app_header>
+			<app_info><![CDATA[<span class="appHeader">Fully-featured mobile app, available for free with QuickBooks packages, gives you far-reaching control over your accounts – wherever you are. Create invoices on the go, view and edit customer information, receive alerts for overdue payment and mark invoices as paid, create receipts and estimates, plus set up and manage VAT. </span>]]></app_info>
+			
+			<app_availability>
+				<ios><![CDATA[https://itunes.apple.com/gb/app/quickbooks-online-for-iphone/id393232373?mt=8]]></ios>
+				<android><![CDATA[https://play.google.com/store/apps/details?id=com.intuit.quickbooks&hl=en_GB]]></android>
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/Quickbooks/" numOfImages="5" />
+		</app>	
+		
+		
+		<app name="Kashoo" phoneID="5">
+			<menu_title><![CDATA[<span class="appMenuTitle">Kashoo</span>]]></menu_title>
+			<menu_icon>images/business_apps/44x44/Kashoo.png</menu_icon>	
+			<app_icon>images/business_apps/120x120/Kashoo.png</app_icon>
+			
+			<app_name><![CDATA[<span class="appTitle">Kashoo</span>]]></app_name>
+			<app_header><![CDATA[<span class="appHeader">Free app; packages from $20 a month</span>]]></app_header>
+			<app_info><![CDATA[<span class="appHeader">Kashoo claims to save small business users an average of 5-10 hours a month doing their books. It ditches cumbersome spreadsheet-style accounting in favour of simple task-based forms, enabling freelancers and small firms to create invoices and reports and mange tax – though it lacks some of its competitors’ project-management facilities. </span>]]></app_info>
+			
+			<app_availability>
+				<ios><![CDATA[https://itunes.apple.com/gb/app/kashoo-accounting/id442878143]]></ios>	
+			</app_availability>
+			
+			<slideshow url="images/business_apps/slideshow/Kashoo/" numOfImages="5" />
+		</app>			
+	</section>
+		
+
+</data>

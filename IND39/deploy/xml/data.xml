@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<structure issueName="IND39" siteTitle="Orange exchange | Issue 39">	
+
+		<page name="contents" notInContents="true">
+			<swf_location>contents.swf</swf_location>
+			<menu_image>thumb_bar/t1.jpg</menu_image>
+			<menu_title>in this issue</menu_title>
+			<menu_info> the detailed guide to what's in your latest edition</menu_info>
+			<contents_image>thumb_bar/m1.jpg</contents_image>
+			<contents_title>THIS NODE IS OPTIONAL</contents_title>
+			<contents_info>THIS NODE IS OPTIONAL</contents_info>
+		</page>
+		
+		<page name="incoming_news" notInContents="false">
+			<swf_location>incoming_news.swf</swf_location>
+			<menu_image>thumb_bar/t2.jpg</menu_image>
+			<menu_title>incoming news</menu_title>
+			<menu_info>digital skills guides, inclusive international calls, 10GB data boost</menu_info>
+			<contents_image>thumb_bar/m2.jpg</contents_image>
+			<contents_info>digital skills guides, inclusive international calls, 10GB data boost, new business software tools</contents_info>
+		</page>	
+		
+		<page name="biggest_fastest_network">
+			<swf_location>biggest_fastest_network.swf</swf_location>
+			<menu_image>thumb_bar/t3.jpg</menu_image>
+			<menu_title>UK’s biggest, fastest network</menu_title>
+			<menu_info>EE’s mobile network is getting better all the time</menu_info>
+			<contents_image>thumb_bar/m3.jpg</contents_image>
+		</page>	
+	
+		
+		<page name="hero_smartphones">
+			<swf_location>hero_smartphones.swf</swf_location>
+			<menu_image>thumb_bar/t4.jpg</menu_image>
+			<menu_title>hero smartphone</menu_title>
+			<menu_info>Samsung Galaxy Note 3</menu_info>
+			<contents_image>thumb_bar/m4.jpg</contents_image>
+		</page>	
+		
+
+		<page name="smartphones_on_4GEE">
+			<swf_location>voice_devices.swf</swf_location>
+			<menu_image>thumb_bar/t5.jpg</menu_image>
+			<menu_title>smartphones on 4GEE</menu_title>
+			<menu_info>the latest 4G-ready smartphones from EE</menu_info>
+			<contents_image>thumb_bar/m5.jpg</contents_image>
+			<contents_info>the latest 4G-ready smartphones from EE</contents_info>
+		</page>	
+		
+		<page name="iPhone5_iPad_iPad-mini">
+			<swf_location>apple_devices.swf</swf_location>
+			<menu_image>thumb_bar/t6.jpg</menu_image>
+			<menu_title>iPhone 5, iPad and iPad mini</menu_title>
+			<menu_info>Apple iOS devices on EE</menu_info>
+			<contents_image>thumb_bar/m6.jpg</contents_image>
+			<contents_title>iPhone 5, iPad and iPad mini</contents_title>
+		</page>	
+		
+		<page name="move_to_4GEE">
+			<swf_location>ee_plans_voice.swf</swf_location>
+			<menu_image>thumb_bar/t7.jpg</menu_image>
+			<menu_title>move to 4GEE</menu_title>
+			<menu_info>go superfast with great value phone plans from EE</menu_info>
+			<contents_image>thumb_bar/m7.jpg</contents_image>
+			<contents_info><![CDATA[go superfast with great value phone plans <br/>from EE]]></contents_info>
+		</page>	
+		
+		
+		<page name="internet_on_the_go">
+			<swf_location>data_devices.swf</swf_location>
+			<menu_image>thumb_bar/t8.jpg</menu_image>
+			<menu_title>internet on the go</menu_title>
+			<menu_info>tablets, Mobile WiFi and dongles on superfast 4GEE</menu_info>
+			<contents_image>thumb_bar/m8.jpg</contents_image>
+		</page>			
+		
+	
+		<page name="4GEE_data_plans" notInContents="false">
+			<swf_location>ee_plans_data.swf</swf_location>
+			<menu_image>thumb_bar/t9.jpg</menu_image>
+			<menu_title>4GEE data plans</menu_title>
+			<menu_info>tablet, Mobile WiFi, dongle and SIM Only plans from EE</menu_info>
+			<contents_image>thumb_bar/m9.jpg</contents_image>
+		</page>		
+				
+
+		<page name="Fibre_Broadband">
+			<swf_location>fibre_broadband.swf</swf_location>
+			<menu_image>thumb_bar/t10.jpg</menu_image>
+			<menu_title>Fibre Broadband</menu_title>
+			<menu_info>get ahead in business with superfast internet in the office</menu_info>
+			<contents_image>thumb_bar/m10.jpg</contents_image>
+		</page>		
+		
+		
+		
+		<page name="5_quick_wins">
+			<swf_location>five_quick_wins.swf</swf_location>
+			<menu_image>thumb_bar/t11.jpg</menu_image>
+			<menu_title>5 quick wins</menu_title>
+			<menu_info>get ahead with the top five tasks to get sorted for 2014</menu_info>
+			<contents_image>thumb_bar/m11.jpg</contents_image>
+			<contents_info>get ahead with the top five tasks to get sorted for 2014</contents_info>
+		</page>		
+		
+	
+		
+		<page name="business_apps">
+			<swf_location>business_apps.swf</swf_location>
+			<menu_image>thumb_bar/t12.jpg</menu_image>
+			<menu_title>best business apps</menu_title>
+			<menu_info>save time and take control with our pick of the best business apps</menu_info>
+			<contents_image>thumb_bar/m12.jpg</contents_image>
+			<contents_info>save time and take control with our pick of the best business apps</contents_info>
+		</page>		
+		
+		
+		<page name="samsung_galaxy_note3_advert" notInContents="false">
+			<swf_location>advert.swf</swf_location>
+			<menu_image>thumb_bar/t17.jpg</menu_image>
+			<menu_title>Samsung Galaxy Note 3</menu_title>
+			<menu_info>see the bigger picture</menu_info>
+			<contents_image>thumb_bar/m17.jpg</contents_image>
+		</page>	
+		
+
+		
+		<page name="five_minutes_with">
+			<swf_location>five_minutes_with.swf</swf_location>
+			<menu_image>thumb_bar/t14.jpg</menu_image>
+			<menu_title>five minutes with Geoff Taylor</menu_title>
+			<menu_info>chief executive at the BPI</menu_info>
+			<contents_image>thumb_bar/m14.jpg</contents_image>
+			<contents_info>chief executive at the BPI</contents_info>
+		</page>	
+		
+		
+		<page name="inspired_opportunity">
+			<swf_location>inspired_opportunity.swf</swf_location>
+			<menu_image>thumb_bar/t15.jpg</menu_image>
+			<menu_title>unnovation</menu_title>
+			<menu_info>EE's CEO, Olaf Swantee, on why businesses must evolve</menu_info>
+			<contents_image>thumb_bar/m15.jpg</contents_image>
+			<contents_info>EE's CEO, Olaf Swantee, on why businesses must evolve</contents_info>
+		</page>	
+	
+		<page name="competition">
+			<swf_location>competition.swf</swf_location>
+			<menu_image>thumb_bar/t16.jpg</menu_image>
+			<menu_title>competition</menu_title>
+			<menu_info>win a Smart TV, Sonos speaker and smart tech bundle worth &#163;2,000</menu_info>
+			<contents_image>thumb_bar/m16.jpg</contents_image>
+		</page>			
+		
+
+		<page name="using_your_mobile_abroad">
+			<swf_location>travelling_abroad.swf</swf_location>
+			<menu_image>thumb_bar/t18.jpg</menu_image>
+			<menu_title>using your mobile abroad</menu_title>
+			<menu_info>low roaming costs &#38; protection against unexpected bills</menu_info>
+			<contents_image>thumb_bar/m18.jpg</contents_image>
+			<contents_info>low roaming costs, plus protection against unexpected bills</contents_info>
+		</page>	
+		
+		<page name="Orange_roaming_bundles">
+			<swf_location>OUKplans.swf</swf_location>
+			<menu_image>thumb_bar/t19.jpg</menu_image>
+			<menu_title>Orange roaming bundles</menu_title>
+			<menu_info>great deals on calls, text and data abroad</menu_info>
+			<contents_image>thumb_bar/m19.jpg</contents_image>
+		</page>	
+
+	
+		<page name="get_in_touch" notInContents="true">
+			<swf_location>get_in_touch.swf</swf_location>
+			<menu_image>thumb_bar/t20.jpg</menu_image>
+			<menu_title>get in touch</menu_title>
+			<menu_info>all the helpful contact numbers and links you need</menu_info>
+			<contents_image>thumb_bar/m20.jpg</contents_image>
+			<contents_title>get in touch</contents_title>
+		</page>		
+	</structure>
+	
+</root>
+

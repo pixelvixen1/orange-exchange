@@ -1,0 +1,92 @@
+﻿////////////////////////////////////////////////////////////////////////////////
+// FileName: ThumbHolder.as
+// Created by: Angel
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// IMPORTS
+////////////////////////////////////////////////////////////////////////////////
+import mx.events.EventDispatcher;
+import mx.utils.Delegate;
+
+import TextField.StyleSheet;
+import exchange.data.EventsCSS;
+import exchange.model.valueObjects.PageVO;
+
+////////////////////////////////////////////////////////////////////////////////
+// CLASS: MenuItem
+////////////////////////////////////////////////////////////////////////////////
+class exchange.view.ThumbHolder extends MovieClip
+{
+	////////////////////////////////////////////////////////////////////////////
+	// Properties
+	////////////////////////////////////////////////////////////////////////////
+	public var ID					: Number;
+	private var data	 			: Object;
+	
+	private var img_holder			: MovieClip;
+	private var title_text			: TextField;
+
+	// Dispatch
+	public var addEventListener		: Function; 
+	public var removeEventListener	: Function; 
+	public var dispatchEvent		: Function;
+
+	////////////////////////////////////////////////////////////////////////////
+	// Constructor
+	////////////////////////////////////////////////////////////////////////////
+	public function ThumbHolder()
+	{		
+		EventDispatcher.initialize(this);
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	// Initialise and Set item 
+	////////////////////////////////////////////////////////////////////////////
+	public function init(  _data : Object ) : Void
+	{		
+		data = _data;
+		this.ID = data.id;
+		setText();
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	// Set Text
+	////////////////////////////////////////////////////////////////////////////
+	private function setText() : Void
+	{		
+		var ts : String = '<span class="titleText">' +  data.menu_title + ": "  +' </span> <span class="bodyText">' + data.menu_info  +'</span>';
+			
+		setTextProperties(title_text, ts, true, true);
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	//FORMAT TEXT FIELD PROPERTIES
+	////////////////////////////////////////////////////////////////////////////
+	public function setTextProperties( tf : TextField, txtStr : String, _multiline : Boolean, _html : Boolean ) : Void
+	{
+		var css_file:StyleSheet = EventsCSS.getInstance().cssFile;
+		
+/*		 var styleObject:Object = css_file.getStyle('.titleText');
+         for (var propName in styleObject) 
+		 {
+            var propValue = styleObject[propName];
+            trace("\t"+propName+": "+propValue);
+         }
+		 */
+		
+		tf.border = false;
+		tf.background = false;
+		tf.autoSize = false;
+		tf.wordWrap = _multiline;
+		tf.multiline = _multiline;
+		tf.selectable = false;
+		tf.embedFonts = true;
+		tf.html = _html;
+		tf.styleSheet = css_file;
+		tf.condenseWhite = true;
+		tf.htmlText = txtStr;
+		
+	}
+
+}

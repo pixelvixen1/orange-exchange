@@ -2,7 +2,7 @@
 // Project: Orange Exchange issue 39
 // FileName: FiveQuickWins.as
 // Created by: Angel 
-// updated : 27 Jan 2014
+// updated : 16 Feb 2014
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 // IMPORTS
@@ -34,11 +34,12 @@ class exchange.sections.five_quick_wins.FiveQuickWins extends MovieClip
 	public var main_mc					: MovieClip;
 	public var quickWins_mc				: MovieClip;
 	public var plus_lines_mc			: MovieClip;
-	//public var tags_mc					: MovieClip;
+	public var tooltip_mc				: MovieClip;
 	
 	public var positions				: Array = [ { x: -180, y: -542, scale:240 }, { x:-1278, y:-688, scale:255 }, { x:-2416, y:-993, scale:290 }, { x:-2445, y:-1197, scale:262 }, { x:196, y:-1126, scale:200 } ];
 	public var glowColors 				: Array = [0x6DCED0, 0xF7F4E9, 0xFEE600, 0x6DCED0, 0xF7F4E9];
-	public var tracking 				: Array = ["Video_Meetings", "Get_your_comms_together", "Sharing_Content", "Mobile_Security", "How_do_you_look_online"];
+	public var tracking 				: Array = ["VIDEO MEETINGS", "GET YOUR COMMS TOGETHER", "SHARING CONTENT", "MOBILE SECURITY", "HOW DO YOU LOOK ONLINE"];
+	public var tooltip_pos				: Array = [ { x:25, y:155}, { x:500, y:98}, { x:638, y:180 }, { x:760, y:355 }, { x:156, y:411 } ];
 	
 	// DISPATCH
 	public var addEventListener			: Function; 
@@ -81,7 +82,6 @@ class exchange.sections.five_quick_wins.FiveQuickWins extends MovieClip
 		TweenMax.to(intro_text_mc, 0, { autoAlpha:0 } );	
 		
 		TweenMax.to(roundel_mc, 0, { _xscale:0, _yscale:0 } );
-		//TweenMax.to(tags_mc, 0, { autoAlpha:0 } );
 		
 		for (var i:Number = 0; i< numOfIcons; i++) 
 		{
@@ -130,7 +130,6 @@ class exchange.sections.five_quick_wins.FiveQuickWins extends MovieClip
 		TweenMax.to(intro_text_mc, .5, { autoAlpha:100, delay:dtime+=.1 } );
 	
 		TweenMax.to(roundel_mc, 1, { _xscale:100, _yscale:100, ease:Back.easeOut, delay:dtime+=.5 } );
-		//TweenMax.to(tags_mc, 1, { autoAlpha:100, delay:dtime+=.5  } );
 		
 		enableAll();
 	}
@@ -173,7 +172,12 @@ class exchange.sections.five_quick_wins.FiveQuickWins extends MovieClip
 		
 		openPageByID(mc.id);
 		
-		Tracker.trackClick(page_name, tracking[mc.id]);
+		removeTooltip();
+		
+		var word_array:Array = tracking[mc.id].split(" "); 
+		var tracking_data : String = word_array.join("_");
+
+		Tracker.trackClick(page_name, tracking_data);
 	}
 	
 	////////////////////////////////////////////////////////////////////////////
@@ -188,9 +192,11 @@ class exchange.sections.five_quick_wins.FiveQuickWins extends MovieClip
 		var _colour = icon.gc;
 
 		TweenMax.to(icon, .5, {glowFilter:{color:_colour, alpha:1, blurX:12, blurY:12, strength:1, quality:3}, _xscale:icon.iv._xscale+10, _yscale:icon.iv._yscale+10, yoyo:true, repeat:-1, repeatDelay:0 });
-		TweenMax.to(plus, .5, { _xscale:60, _yscale:60, yoyo:true, repeat: -1, repeatDelay:0} );
-
+		TweenMax.to(plus, .5, { _xscale:60, _yscale:60, yoyo:true, repeat: -1, repeatDelay:0 } );
+		
+		this._parent._parent.showTooltip(i);	
 	}
+	
 	////////////////////////////////////////////////////////////////////////////
 	// On item mouse out
 	///////////////////////////////////////////////////////////////////////////	
@@ -203,7 +209,9 @@ class exchange.sections.five_quick_wins.FiveQuickWins extends MovieClip
 		var _colour = icon.gc;
 		
 		TweenMax.to(icon, .5, {glowFilter:{color:_colour, alpha:1, blurX:0, blurY:0, strength:1, quality:3, remove:true}, _xscale:icon.iv._xscale, _yscale:icon.iv._yscale});
-		TweenMax.to(plus, .5, { _xscale:plus.iv._xscale, _yscale:plus.iv._yscale});
+		TweenMax.to(plus, .5, { _xscale:plus.iv._xscale, _yscale:plus.iv._yscale } );
+		
+		this._parent._parent.removeTooltip();
 	}
 	
 	////////////////////////////////////////////////////////////////////////////
@@ -220,7 +228,6 @@ class exchange.sections.five_quick_wins.FiveQuickWins extends MovieClip
 		TweenMax.to(intro_text_mc, .5, { _alpha:0 } );	
 		
 		TweenMax.to(roundel_mc, .5, { _xscale:0, _yscale:0, ease:Back.easeIn } );
-		//TweenMax.to(tags_mc, 0.5, { autoAlpha:0 } );
 		 
 		TweenMax.to(main_mc, 1.5, { _xscale:positions[ID].scale, _yscale:positions[ID].scale, _x:positions[ID].x, _y:positions[ID].y, ease:Cubic.easeInOut, delay:dtime + .2 } );
 		
@@ -421,6 +428,24 @@ class exchange.sections.five_quick_wins.FiveQuickWins extends MovieClip
 		}
 
 	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	// tool tip
+	///////////////////////////////////////////////////////////////////////////	
+	private function showTooltip(i:Number):Void
+	{
+		tooltip_mc = this.attachMovie("tooltip", "tooltip_mc", 100, { _x:tooltip_pos[i].x, _y:tooltip_pos[i].y, _alpha:0 } );
+		tooltip_mc.txt.autoSize = "LEFT";
+		tooltip_mc.txt.htmlText = tracking[i];
+		tooltip_mc.bg._width = tooltip_mc.txt.textWidth +15;
+		
+		TweenMax.to(tooltip_mc, .5, {_alpha:100});
+	}
+	private function removeTooltip():Void
+	{
+		tooltip_mc.removeMovieClip();
+	}
+	
 	
 	////////////////////////////////////////////////////////////////////////////
 	// Get the competition link
